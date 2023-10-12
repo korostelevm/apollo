@@ -1,4 +1,5 @@
 {
+  "main": "index.js",
   "name": "apollo",
   "module": "index.ts",
   "type": "module",
