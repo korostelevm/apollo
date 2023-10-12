@@ -10,6 +10,7 @@ const typeDefs = `#graphql
   type Book {
     title: String
     author: String
+    id: Int
   }
   # The "Query" type is special: it lists all of the available queries that
   # clients can execute, along with the return type for each. In this
@@ -24,10 +25,12 @@ const books = [
     {
       title: 'The Awakening',
       author: 'Kate Chopin',
+      id: 1,
     },
     {
       title: 'City of Glass',
       author: 'Paul Auster',
+      id: 2,
     },
   ];
 
