@@ -2,6 +2,9 @@
   "name": "apollo",
   "module": "index.ts",
   "type": "module",
+  "scripts":{
+    "start": "bun ."
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
